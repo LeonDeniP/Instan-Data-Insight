@@ -1,0 +1,24 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Paling Penting!) ---
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# --- Environment Variables ---
+.env
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Data/Database (Opsional) ---
+*.csv
+*.db
+*.sqlite3
