@@ -35,7 +35,7 @@ os.makedirs(STORAGE_DIR, exist_ok=True)
 DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://root:@localhost:3306/db_instant_insight")
 
 # Masukkan API Key Anda di sini
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6IiBJgyxgxO8PPuFocI9AAh_RCSgRLK5TqBssC5FCEoUw")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6KT36pHYG46w9rVEtNCMPQCr0jrVDj3VldRhtft3QHyqw")
 
 # PERBAIKAN: Langsung configure tanpa pengecekan string yang memblokir
 if GEMINI_API_KEY:
